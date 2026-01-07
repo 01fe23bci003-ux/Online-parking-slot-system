@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Build/dist
+/build
+/dist
+/.next
+/out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+/coverage
+.nyc_output
+
+# Misc
+.cache/
+tmp/
+temp/
+
+# Stripe keys (never commit)
+stripe_test_keys.txt
+stripe_keys.txt
